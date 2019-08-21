@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<!--File created by Christy Thomas-->
+  <head>
+    <meta charset="UTF-8">
+    <title>NextGen - Online Shopping Site for Graphics Cards. Best Offers!</title>
+
+    <meta name="description" content="Awesome Graphics card Deals">
+    <meta name="author" content="Christy Thomas">
+    <!--Responsive Website-->
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <!--Website icon-->
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/gobal.css">
+    <!--custom icons from font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6c46d8e39e.js"></script>
+
+  </head>
+
+  <!--Body-->
+
+  <body>
+
+    <!--Header-->
+    <header>
+      <p id="header-text">
+        Best New Deals Everyday
+      </p>
+    </header>
+
+    <!--Navigation Bar-->
+    <nav>
+      <div class="nav-left">
+        <img id="nextgen-logo" src="images/logo-flat.png" alt="NextGen Logo"
+          title="NextGen - Online Shopping Site for Graphics Cards. Best Offers!">
+        <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a id="active" href="#"><i class="fa fa-fw fa-book"></i> Catalogue</a>
+        <a href="gallery.html"><i class="fa fa-fw fa-photo"></i> Gallery</a>
+        <a href="table.html"><i class="fa fa-fw fa-table"></i> Compare</a>
+        <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+      </div>
+      <div class="nav-right">
+        <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+        <a href="#"><i class="fa fa-fw fa-shopping-cart"></i> Cart</a>
+      </div>
+    </nav>
+
+    <!--Main-->
+    <main class="catalogue">
+      <!--back to top icon-->
+      <a href="#" class="back-to-top-btn">
+        <i class="fas fa-caret-square-up"></i>
+      </a>
+
+      <!--main container-->
+      <div class="container">
+        <h1>SHOP AMD AND NVIDIA GRAPHICS CARDS</h1>
+        <!--left side filter container-->
+        <div class="filter-col">
+          <div class="filter-container">
+            <h3 class="filter-top-title">ADVANCED SEARCH</h3>
+            <ul class="filter-list">
+
+              <!--Brand filter-->
+              <li class="filter-category">
+                <div class="filter-title">Category</div>
+                <div class="filter-content">
+                  <ul class="filter-values">
+                    <!--each values in filter-->
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="category_filter-0" name="category_filter-0"
+                          value="true" checked>
+                        <label class="filter-label" for="category_filter-0">AMD Series</label>
+                      </div>
+                    </li>
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="category_filter-1" name="category_filter-1"
+                          value="true" checked>
+                        <label class="filter-label" for="category_filter-1">NVIDIA Series</label>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </li>
+
+              <!--GPU filter-->
+              <li class="filter-category">
+                <div class="filter-title">GPU</div>
+                <div class="filter-content">
+                  <ul class="filter-values">
+
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="gpu_filter-0" name="gpu_filter-0"
+                          value="false">
+                        <label class="filter-label" for="gpu_filter-0">Radeon&trade; RX5000 Series</label>
+                      </div>
+                    </li>
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="gpu_filter-1" name="gpu_filter-1"
+                          value="false">
+                        <label class="filter-label" for="gpu_filter-1">Radeon&trade; RX500 Series</label>
+                      </div>
+                    </li>
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="gpu_filter-2" name="gpu_filter-2"
+                          value="false">
+                        <label class="filter-label" for="gpu_filter-2">Radeon&trade; RX500 Series</label>
+                      </div>
+                    </li>
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="gpu_filter-3" name="gpu_filter-3"
+                          value="false">
+                        <label class="filter-label" for="gpu_filter-3">GeForce&trade; RTX20 Series</label>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </li>
+
+              <!--Video Memory Size filter-->
+              <li class="filter-category">
+                <div class="filter-title">Video Memory</div>
+                <div class="filter-content">
+                  <ul class="filter-values">
+
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="vmem_filter-0" name="vmem_filter-0"
+                          value="false">
+                        <label class="filter-label" for="vmem_filter-0">8 GB</label>
+                      </div>
+                    </li>
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="vmem_filter-1" name="vmem_filter-1"
+                          value="false">
+                        <label class="filter-label" for="vmem_filter-1">6 GB</label>
+                      </div>
+                    </li>
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="vmem_filter-2" name="vmem_filter-2"
+                          value="false">
+                        <label class="filter-label" for="vmem_filter-2">4 GB</label>
+                      </div>
+                    </li>
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="vmem_filter-3" name="vmem_filter-3"
+                          value="false">
+                        <label class="filter-label" for="vmem_filter-3">3 GB</label>
+                      </div>
+                    </li>
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="vmem_filter-4" name="vmem_filter-4"
+                          value="false">
+                        <label class="filter-label" for="vmem_filter-4">2 GB</label>
+                      </div>
+                    </li>
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="vmem_filter-5" name="vmem_filter-5"
+                          value="false">
+                        <label class="filter-label" for="vmem_filter-5">1 GB</label>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </li>
+
+              <!--Memory Interface filter-->
+              <li class="filter-category">
+                <div class="filter-title">Memory Interface</div>
+                <div class="filter-content">
+                  <ul class="filter-values">
+
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="meminter_filter-0" name="meminter_filter-0"
+                          value="false">
+                        <label class="filter-label" for="meminter_filter-0">64 bit</label>
+                      </div>
+                    </li>
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="meminter_filter-1" name="meminter_filter-1"
+                          value="false">
+                        <label class="filter-label" for="meminter_filter-1">128 bit</label>
+                      </div>
+                    </li>
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="meminter_filter-2" name="meminter_filter-2"
+                          value="false">
+                        <label class="filter-label" for="meminter_filter-2">192 bit</label>
+                      </div>
+                    </li>
+                    <li class="filter-value">
+                      <div class="filter-value-content">
+                        <input type="checkbox" class="filter-checkbox" id="meminter_filter-3" name="meminter_filter-3"
+                          value="false">
+                        <label class="filter-label" for="meminter_filter-3">256 bit</label>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+
+        <!--Product list-->
+        <div class="main-col">
+          <div class="main-container">
+
+            <!--Top searchbar, sort list, view type-->
+            <div class="main-topbar-container">
+              <!--form to make sorting when person click submit btn-->
+              <form class="top-bar" action="#">
+                <div class="form-row">
+                  <!--search bar with submit btn-->
+                  <div class="search-form-container">
+                    <input class="search-form-input" type="text" placeholder="Example: GeForce RTX">
+                    <label id="search-submit-icon" for="search-submit-btn"><i class="fas fa-search"></i></label>
+                    <input id="search-submit-btn" type="submit">
+                  </div>
+                </div>
+
+                <!--sorting selection-->
+                <div class="form-row">
+                  <div class="bounding-box">
+                    <div class="sort-selection">
+                      <span>Sort By: </span>
+                      <select>
+                        <option>Popularity</option>
+                        <option>Date</option>
+                        <option>A-Z</option>
+                      </select>
+                    </div>
+                    <!--view selection-->
+                    <div class="sort-view">
+                      <span>View : </span>
+                      <a href="#">
+                        <i class="fas fa-th-list"></i>
+                      </a>
+                      <a href="#">
+                        <i id="view-selected" class="fas fa-th"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+
+            <!--Middle text (result found text) -->
+            <div class="main-middle-container">
+              <h4>8 Results Found</h4>
+            </div>
+
+            <!--Featured Product (if have time to do it)-->
+
+
+            <!--Product details-->
+            <div class="product-details-main-container">
+              <div class="product-details-wrap">
+
+                <!--product 1-->
+
+                <div class="product-tile">
+                  <div class="product-tile-img-container">
+                    <a href="product.html"><img src="images/product-1.jpg" alt="product"></a>
+                  </div>
+                  <a href="product.html">
+                    <h3 class="product-tile-name">NVIDIA GEFORCE RTX 2080 Ti</h3>
+                  </a>
+                  <div class="product-tile-spec">
+                    <ul>
+                      <li><i class="fas fa-chevron-circle-right"></i> Cooling System : Fan</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Clock Speed : 1350 MHz</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Memory Size : 11 GB</li>
+                    </ul>
+                  </div>
+                  <div class="product-price-container">
+                    <span class="product-price-num">$1,199.</span>
+                    <span class="product-price-decimal">00</span>
+                  </div>
+                  <div class="product-button-container">
+                    <a href="#" class="product-add-cart-btn product-btn">
+                      <span>ADD TO CART</span>
+                    </a>
+                    <a href="#" class="product-add-wishlist-btn product-btn">
+                      <span>ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+
+
+                <!--product 2-->
+
+                <div class="product-tile">
+                  <div class="product-tile-img-container">
+                    <a href="#"><img src="images/product-2.jpg" alt="product"></a>
+                  </div>
+                  <a href="#">
+                    <h3 class="product-tile-name">NVIDIA TITAN RTX</h3>
+                  </a>
+                  <div class="product-tile-spec">
+                    <ul>
+                      <li><i class="fas fa-chevron-circle-right"></i> Cooling System : Fan</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Clock Speed : 1350 MHz</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Memory Size : 24 GB</li>
+                    </ul>
+                  </div>
+                  <div class="product-price-container">
+                    <span class="product-price-num">$2,499.</span>
+                    <span class="product-price-decimal">00</span>
+                  </div>
+                  <div class="product-button-container">
+                    <a href="#" class="product-add-cart-btn product-btn">
+                      <span>ADD TO CART</span>
+                    </a>
+                    <a href="#" class="product-add-wishlist-btn product-btn">
+                      <span>ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+
+
+                <!--product 3-->
+
+                <div class="product-tile">
+                  <div class="product-tile-img-container">
+                    <a href="#"><img src="images/product-3.jpg" alt="product"></a>
+                  </div>
+                  <a href="#">
+                    <h3 class="product-tile-name">AMD RADEON RX 5700</h3>
+                  </a>
+                  <div class="product-tile-spec">
+                    <ul>
+                      <li><i class="fas fa-chevron-circle-right"></i> Cooling System : Fan</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Clock Speed : 1605 MHz</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Memory Size : 8 GB</li>
+                    </ul>
+                  </div>
+                  <div class="product-price-container">
+                    <span class="product-price-num">$349.</span>
+                    <span class="product-price-decimal">00</span>
+                  </div>
+                  <div class="product-button-container">
+                    <a href="#" class="product-add-cart-btn product-btn">
+                      <span>ADD TO CART</span>
+                    </a>
+                    <a href="#" class="product-add-wishlist-btn product-btn">
+                      <span>ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+
+
+                <!--product 4-->
+
+                <div class="product-tile">
+                  <div class="product-tile-img-container">
+                    <a href="#"><img src="images/product-4.jpg" alt="product"></a>
+                  </div>
+                  <a href="#">
+                    <h3 class="product-tile-name">NVIDIA GEFORCE RTX 2070</h3>
+                  </a>
+                  <div class="product-tile-spec">
+                    <ul>
+                      <li><i class="fas fa-chevron-circle-right"></i> Cooling System : Active</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Clock Speed : 1410 MHz</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Memory Size : 8 GB</li>
+                    </ul>
+                  </div>
+                  <div class="product-price-container">
+                    <span class="product-price-num">$519.</span>
+                    <span class="product-price-decimal">99</span>
+                  </div>
+                  <div class="product-button-container">
+                    <a href="#" class="product-add-cart-btn product-btn">
+                      <span>ADD TO CART</span>
+                    </a>
+                    <a href="#" class="product-add-wishlist-btn product-btn">
+                      <span>ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+
+
+                <!--product 5-->
+
+                <div class="product-tile">
+                  <div class="product-tile-img-container">
+                    <a href="#"><img src="images/product-5.jpg" alt="product"></a>
+                  </div>
+                  <a href="#">
+                    <h3 class="product-tile-name">AMD RADEON RX 5700 XT</h3>
+                  </a>
+                  <div class="product-tile-spec">
+                    <ul>
+                      <li><i class="fas fa-chevron-circle-right"></i> Cooling System : Fan</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Clock Speed : 1605 MHz</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Memory Size : 8 GB</li>
+                    </ul>
+                  </div>
+                  <div class="product-price-container">
+                    <span class="product-price-num">$399.</span>
+                    <span class="product-price-decimal">00</span>
+                  </div>
+                  <div class="product-button-container">
+                    <a href="#" class="product-add-cart-btn product-btn">
+                      <span>ADD TO CART</span>
+                    </a>
+                    <a href="#" class="product-add-wishlist-btn product-btn">
+                      <span>ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+
+
+                <!--product 6-->
+
+                <div class="product-tile">
+                  <div class="product-tile-img-container">
+                    <a href="#"><img src="images/product-6.jpg" alt="product"></a>
+                  </div>
+                  <a href="#">
+                    <h3 class="product-tile-name">AMD RADEON RX 590</h3>
+                  </a>
+                  <div class="product-tile-spec">
+                    <ul>
+                      <li><i class="fas fa-chevron-circle-right"></i> Cooling System : Fan</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Clock Speed : 1469 MHz</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Memory Size : 8 GB</li>
+                    </ul>
+                  </div>
+                  <div class="product-price-container">
+                    <span class="product-price-num">$309.</span>
+                    <span class="product-price-decimal">99</span>
+                  </div>
+                  <div class="product-button-container">
+                    <a href="#" class="product-add-cart-btn product-btn">
+                      <span>ADD TO CART</span>
+                    </a>
+                    <a href="#" class="product-add-wishlist-btn product-btn">
+                      <span>ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+
+
+                <!--product 7-->
+
+                <div class="product-tile">
+                  <div class="product-tile-img-container">
+                    <a href="#"><img src="images/product-1.jpg" alt="product"></a>
+                  </div>
+                  <a href="#">
+                    <h3 class="product-tile-name">NVIDIA GEFORCE RTX 2060</h3>
+                  </a>
+                  <div class="product-tile-spec">
+                    <ul>
+                      <li><i class="fas fa-chevron-circle-right"></i> Cooling System : Active</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Clock Speed : 1680 MHz</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Memory Size : 6 GB</li>
+                    </ul>
+                  </div>
+                  <div class="product-price-container">
+                    <span class="product-price-num">$379.</span>
+                    <span class="product-price-decimal">99</span>
+                  </div>
+                  <div class="product-button-container">
+                    <a href="#" class="product-add-cart-btn product-btn">
+                      <span>ADD TO CART</span>
+                    </a>
+                    <a href="#" class="product-add-wishlist-btn product-btn">
+                      <span>ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+
+
+                <!--product 8-->
+
+                <div class="product-tile">
+                  <div class="product-tile-img-container">
+                    <a href="#"><img src="images/product-1.jpg" alt="product"></a>
+                  </div>
+                  <a href="#">
+                    <h3 class="product-tile-name">AMD RADEON RX 580</h3>
+                  </a>
+                  <div class="product-tile-spec">
+                    <ul>
+                      <li><i class="fas fa-chevron-circle-right"></i> Cooling System : Fan</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Clock Speed : 1257 MHz</li>
+                      <li><i class="fas fa-chevron-circle-right"></i> GPU Memory Size : 8 GB</li>
+                    </ul>
+                  </div>
+                  <div class="product-price-container">
+                    <span class="product-price-num">$224.</span>
+                    <span class="product-price-decimal">47</span>
+                  </div>
+                  <div class="product-button-container">
+                    <a href="#" class="product-add-cart-btn product-btn">
+                      <span>ADD TO CART</span>
+                    </a>
+                    <a href="#" class="product-add-wishlist-btn product-btn">
+                      <span>ADD TO WISHLIST</span>
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <div class="footer-container">
+
+        <div class="footer-top">
+          <div class="footer-span">
+            <h4>Visit Us</h4>
+            <address>
+              Street: 5975 Avenue de l'Authion Anjou<br>
+              City: Montréal<br>
+              State: Quebec<br>
+              Zip Code: H1M 2W3<br>
+              Phone Number: +1-438-342-2426<br>
+              Mobile Number: +1-438-342-2427<br>
+            </address>
+          </div>
+
+          <div class="footer-span">
+            <h4>Who We Are?</h4>
+            <ul>
+              <li>
+                <a href="#">Where to Buy</a>
+              </li>
+              <li>
+                <a href="#">About NextGen</a>
+              </li>
+              <li>
+                <a href="#">Latest News</a>
+              </li>
+              <li>
+                <a href="#">Awards</a>
+              </li>
+              <li>
+                <a href="#">Careers</a>
+              </li>
+              <li>
+                <a href="#">Press Room</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-span">
+            <h4>Need Help?</h4>
+            <ul>
+              <li>
+                <a href="contact.html">Contact Us</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="#">Terms</a>
+              </li>
+              <li>
+                <a href="#">Privacy</a>
+              </li>
+              <li>
+                Monday to Friday 24hr
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-span">
+            <h4>Newsletter</h4>
+            <div class="subscribe-box">
+              <form action="#">
+                <input type="email" placeholder="example@example.com" name="subscribe">
+                <br>
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+            <ul class="social-icon">
+              <li>
+                <a href="https://www.facebook.com" title="Facebook" target="_blank">
+                  <i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com" title="Twitter" target="_blank">
+                  <i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.linkedin.com" title="Linkedin" target="_blank">
+                  <i class="fab fa-linkedin-square"></i></a>
+                <a href="https://www.youtube.com" title="Youtube" target="_blank">
+                  <i class="fab fa-youtube-square"></i></a>
+                <a href="https://www.pinterest.ca" title="Pinterest" target="_blank">
+                  <i class="fab fa-pinterest-square"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="site-lang">
+            <a href="#">English</a> | <a href="#">Français</a>
+          </div>
+
+          <div class="trademark">
+            &copy;NextGen Technology Inc. All right reserved.
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+  </body>
+
+</html>
